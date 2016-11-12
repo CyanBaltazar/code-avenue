@@ -8,14 +8,70 @@ html {
 
 body {
   background-color: #ffffff !important;
-  color: #3F4259 !important; }
+  color: #FD5B03 !important; }
 
 img.img-ca {
-  height: 85px; }
+  height: 65px; }
 
 nav {
-  background: #3F4259 !important;
-  color: #FD5B03 !important;
-  border-radius: 0px !important; }
+  background: transparent !important;
+  border-radius: 0px !important;
+  padding: 30px; }
+
+.navbar-brand {
+  padding: 0px !important; }
+
+.navbar {
+  border: none !important; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: #FD5B03 !important; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border: none !important; }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background: #FD5B03 !important; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  background: transparent !important; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FD5B03 !important; }
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FD5B03 !important; }
+
+#landing-part {
+  background: url(../../img/landing-image.jpg.crdownload) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#landing-part div {
+  min-height: 600px;
+  position: relative; }
+
+#landing-part > div > div {
+  position: absolute;
+  top: 50%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+  text-align: center; }
+
+#landing-part > div > div > h1 {
+  color: #ffffff; }
+
+#landing-part > div > div > button {
+  background: transparent;
+  border: 1px solid #FD5B03;
+  border-radius: 20px; }
+
+#landing-part > div > div > button:hover {
+  background: #ffffff;
+  color: #FD5B03; }
 
 /*# sourceMappingURL=main.css.map */

@@ -60,7 +60,7 @@
 
 
 $primary-color: #FD5B03; // dark grey
-$secondary-color: #3F4259; // light green
+$secondary-color: #FD5B03; // orange
 $color-white: #ffffff;
 
 
@@ -76,6 +76,8 @@ padding: 0;
 html {
   position: relative;
   min-height: 100%;
+
+
 }
 
 body {
@@ -84,11 +86,81 @@ body {
 }
 
 img.img-ca {
-  height: 85px;
+  height: 65px;
 }
 
 nav {
-  background: $secondary-color !important;
-  color: $primary-color !important;
+  background: transparent !important;
   border-radius: 0px !important;
+  padding: 30px;
+}
+
+.navbar-brand {
+  padding: 0px !important;
+}
+
+.navbar {
+  border: none !important;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: $secondary-color !important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border: none !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background: $secondary-color !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-nav >li > a {
+  color: $secondary-color !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: $secondary-color !important;
+}
+
+#landing-part {
+  background: url(../../img/landing-image.jpg.crdownload) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+#landing-part div {
+  min-height:600px;
+  position: relative;
+}
+
+#landing-part > div > div {
+  position:absolute;
+  top:50%;
+  height:10em;
+  margin-top:-5em;
+  width:100%;
+  text-align: center;
+}
+
+#landing-part > div > div > h1 {
+  color: $color-white;
+}
+
+#landing-part > div > div > button {
+  background: transparent;
+  border: 1px solid $secondary-color;
+  border-radius: 20px;
+}
+
+#landing-part > div > div > button:hover {
+  background: $color-white;
+  color: $secondary-color;
 }
