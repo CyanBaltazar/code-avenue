@@ -37,7 +37,7 @@ nav {
   background: transparent !important; }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #FD5B03 !important; }
+  color: #818080 !important; }
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -63,10 +63,11 @@ nav {
   text-align: center; }
 
 #landing-part > div > div > h1 {
-  color: #ffffff; }
+  color: #FD5B03 !important; }
 
 #landing-part > div > div > button {
-  background: transparent;
+  background: #FD5B03;
+  color: #ffffff;
   border: 1px solid #FD5B03;
   border-radius: 20px; }
 

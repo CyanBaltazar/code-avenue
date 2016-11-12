@@ -59,7 +59,7 @@
 }
 
 
-$primary-color: #FD5B03; // dark grey
+$primary-color: #818080; // dark grey
 $secondary-color: #FD5B03; // orange
 $color-white: #ffffff;
 
@@ -120,7 +120,7 @@ nav {
 }
 
 .navbar-inverse .navbar-nav >li > a {
-  color: $secondary-color !important;
+  color: $primary-color !important;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,
@@ -151,11 +151,12 @@ nav {
 }
 
 #landing-part > div > div > h1 {
-  color: $color-white;
+  color: $secondary-color !important;
 }
 
 #landing-part > div > div > button {
-  background: transparent;
+  background: $secondary-color;
+  color: $color-white;
   border: 1px solid $secondary-color;
   border-radius: 20px;
 }
